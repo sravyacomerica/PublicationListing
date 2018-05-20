@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Demo</display-name>
+  <servlet>
+    <servlet-name>SimpleServlet</servlet-name>
+    <servlet-class>org.demo.test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SimpleServlet</servlet-name>
+    <url-pattern>/SimpleServlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PublicationServlet</servlet-name>
+    <servlet-class>org.demo.test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicationServlet</servlet-name>
+    <url-pattern>/PublicationServlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>org.demo.test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/SearchServlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PublicationSearchServlet</servlet-name>
+    <servlet-class>org.demo.test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PublicationSearchServlet</servlet-name>
+    <url-pattern>/PublicationSearchServlet/*</url-pattern>
+  </servlet-mapping>
+</web-app>
